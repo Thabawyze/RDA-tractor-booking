@@ -1,4 +1,4 @@
-# 🌾 RDA Agricultural Service Portal
+#  RDA Agricultural Service Portal
 
 > **Development of a Digital RDA Service Portal for Agricultural Information Access and Online Tractor Booking in Eswatini**
 
@@ -6,7 +6,7 @@ A full-stack web-based platform designed to improve access to agricultural servi
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -24,7 +24,7 @@ A full-stack web-based platform designed to improve access to agricultural servi
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 Agriculture remains a key economic activity in Eswatini, with many smallholder farmers relying on government-supported services such as livestock advisory, crop extension support, mechanization, and climate information. However, the delivery of these services is often constrained by:
 
@@ -37,30 +37,30 @@ This platform addresses these challenges by providing a centralized digital solu
 
 ---
 
-## ✨ Features
+##  Features
 
 ### For Farmers
-- 🔐 **Secure Account Registration & Login** – Create and manage farmer accounts
-- 📚 **Agricultural Advisory Information** – Access crop guidance, livestock management, soil advice, and seasonal advisories
-- 🚜 **Online Tractor Booking** – Request mechanization services with location, service type, and duration specifications
-- 💳 **Mobile Money Payments** – Make secure payments via mobile money (MoMo/eMali)
-- 📊 **Personal Dashboard** – View booking history, track status, and manage requests
-- 📱 **Responsive Design** – Accessible on both desktop and mobile devices
+-  **Secure Account Registration & Login** – Create and manage farmer accounts
+-  **Agricultural Advisory Information** – Access crop guidance, livestock management, soil advice, and seasonal advisories
+-  **Online Tractor Booking** – Request mechanization services with location, service type, and duration specifications
+-  **Mobile Money Payments** – Make secure payments via mobile money (MoMo/eMali)
+-  **Personal Dashboard** – View booking history, track status, and manage requests
+-  **Responsive Design** – Accessible on both desktop and mobile devices
 
 ### For RDA Officers
-- 📝 **Content Management** – Upload and manage agricultural advisory content
-- 📋 **Booking Management** – Review, approve, and manage tractor service requests
-- 📈 **Activity Monitoring** – Track farmer activities and service utilization
+-  **Content Management** – Upload and manage agricultural advisory content
+-  **Booking Management** – Review, approve, and manage tractor service requests
+-  **Activity Monitoring** – Track farmer activities and service utilization
 
 ### For Administrators
-- 🛠️ **User Management** – Manage farmers, officers, and system users
-- 📊 **Reports & Analytics** – Generate reports on bookings, services, and system usage
-- ⚙️ **System Settings** – Configure Tinkhundla centers, services, and system parameters
-- 🔍 **Audit Logs** – Monitor system activities and maintain records
+-  **User Management** – Manage farmers, officers, and system users
+-  **Reports & Analytics** – Generate reports on bookings, services, and system usage
+-  **System Settings** – Configure Tinkhundla centers, services, and system parameters
+-  **Audit Logs** – Monitor system activities and maintain records
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 | Technology | Purpose |
@@ -93,53 +93,18 @@ This platform addresses these challenges by providing a centralized digital solu
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The system follows a **Three-Tier Architecture**:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    PRESENTATION LAYER                        │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐  │
-│  │   Farmer    │  │    RDA      │  │    Administrator    │  │
-│  │   Portal    │  │   Officer   │  │      Dashboard      │  │
-│  └─────────────┘  └─────────────┘  └─────────────────────┘  │
-│         React.js + Tailwind CSS + TypeScript                │
-└─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────┐
-│                   APPLICATION LAYER                          │
-│              Business Logic & API Processing                 │
-│                                                              │
-│  • User Authentication      • Booking Processing             │
-│  • Advisory Management      • Payment Handling               │
-│  • Report Generation        • Notification Services          │
-│                                                              │
-│              Node.js + Express.js                            │
-└─────────────────────────────────────────────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────┐
-│                     DATA LAYER                               │
-│              Data Storage & Management                       │
-│                                                              │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐    │
-│  │  Users   │  │ Bookings │  │ Advisory │  │ Payments │    │
-│  │  Table   │  │  Table   │  │ Content  │  │  Table   │    │
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘    │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐                   │
-│  │Tinkhundla│  │ Services │  │ Refunds  │                   │
-│  │ Centers  │  │  Table   │  │  Table   │                   │
-│  └──────────┘  └──────────┘  └──────────┘                   │
-│                                                              │
-│                    MySQL Database                            │
-└─────────────────────────────────────────────────────────────┘
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0c7c2978-8ec4-4dda-8607-6c701b120ab7" />
+
 ```
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -221,7 +186,7 @@ The application will be available at:
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### Farmer Workflow
 1. **Register** – Create a farmer account with personal details
@@ -240,7 +205,7 @@ The application will be available at:
 
 ---
 
-## 🧩 System Modules
+##  System Modules
 
 ### 1. Agricultural Advisory Module
 - Displays crop production guidance
@@ -267,7 +232,7 @@ The application will be available at:
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ### Core Tables
 
@@ -290,7 +255,7 @@ The application will be available at:
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 The system was tested across four dimensions:
 
@@ -325,7 +290,7 @@ The system was tested across four dimensions:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 | Page | Description |
 |------|-------------|
@@ -339,16 +304,16 @@ The system was tested across four dimensions:
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
-- 📱 **Mobile Application** – Native Android and iOS apps for improved accessibility
-- 💰 **Full Mobile Money API** – Live automated payment processing with official API access
-- 📍 **GPS & Tractor Tracking** – Real-time location monitoring for service transparency
-- 🌐 **Offline Functionality** – PWA support for areas with limited connectivity
-- 🌦️ **Weather Integration** – Live weather forecasting and climate alerts
-- 🐄 **Expanded Services** – Fertilizer distribution, livestock vaccination schedules, market prices
-- 🎥 **Video Tutorials** – Online training and community-based learning
-- 🗺️ **Multi-RDA Deployment** – Nationwide rollout across all Rural Development Areas
+-  **Mobile Application** – Native Android and iOS apps for improved accessibility
+-  **Full Mobile Money API** – Live automated payment processing with official API access
+-  **GPS & Tractor Tracking** – Real-time location monitoring for service transparency
+-  **Offline Functionality** – PWA support for areas with limited connectivity
+-  **Weather Integration** – Live weather forecasting and climate alerts
+-  **Expanded Services** – Fertilizer distribution, livestock vaccination schedules, market prices
+-  **Video Tutorials** – Online training and community-based learning
+-  **Multi-RDA Deployment** – Nationwide rollout across all Rural Development Areas
 
 ---
 
@@ -367,7 +332,7 @@ This project was developed as part of the Bachelor of Science in Information Tec
 
 ---
 
-## 📚 References
+##  References
 
 - APAARI (2015). *e-Choupal case studies on digital agricultural extension in India.*
 - Ayim, C., et al. (2022). ICT-enabled advisory systems in African agriculture. *Agricultural Systems*, 203, 103517.
@@ -379,7 +344,7 @@ This project was developed as part of the Bachelor of Science in Information Tec
 
 ---
 
-## 📄 License
+##  License
 
 This project is developed for academic purposes as part of the BSc Information Technology program. All rights reserved.
 
@@ -388,5 +353,5 @@ For inquiries or collaboration, please contact the Department of Computer Scienc
 ---
 
 <p align="center">
-  <strong>🌱 Empowering Farmers Through Digital Innovation 🌱</strong>
+  <strong> Empowering Farmers Through Digital Innovation </strong>
 </p>
