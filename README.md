@@ -153,9 +153,9 @@ NODE_ENV=development
 
 # Database Configuration
 DB_HOST=localhost
-DB_USER=postgres
+DB_USER=databaseusername
 DB_PASSWORD=db_password
-DB_NAME=rdaDB
+DB_NAME=rda
 
 # JWT Secret
 JWT_SECRET=your_jwt_secret_key
