@@ -98,7 +98,7 @@ This platform addresses these challenges by providing a centralized digital solu
 The system follows a **Three-Tier Architecture**:
 
 ```
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0c7c2978-8ec4-4dda-8607-6c701b120ab7" />
+<img width="1536" height="1024" alt="image system architecture" src="https://github.com/user-attachments/assets/ea69828a-4eb8-4098-ba0a-c55ae17c0538" />
 
 ```
 
