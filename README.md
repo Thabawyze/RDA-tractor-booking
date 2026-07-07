@@ -114,8 +114,8 @@ The system follows a **Three-Tier Architecture**:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/rda-agricultural-portal.git
-cd rda-agricultural-portal
+git clone https://github.com/Thabawyze/RDA-tractor-booking.git
+cd rda
 ```
 
 ### Step 2: Install Dependencies
@@ -153,16 +153,16 @@ NODE_ENV=development
 
 # Database Configuration
 DB_HOST=localhost
-DB_USER=your_db_username
-DB_PASSWORD=your_db_password
-DB_NAME=rda_portal
+DB_USER=postgres
+DB_PASSWORD=db_password
+DB_NAME=rdaDB
 
 # JWT Secret
 JWT_SECRET=your_jwt_secret_key
 
 # Mobile Money API (Configure with provider)
-MOMO_API_KEY=your_momo_api_key
-MOMO_API_SECRET=your_momo_api_secret
+MOMO_API_KEY=momo_api_key
+MOMO_API_SECRET=momo_api_secret
 MOMO_BASE_URL=https://api.momo.com
 ```
 
